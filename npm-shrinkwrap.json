@@ -3710,6 +3710,10 @@
       "version": "6.3.0",
       "resolved": "https://registry.npmjs.org/flexboxgrid/-/flexboxgrid-6.3.0.tgz"
     },
+    "font-awesome": {
+      "version": "4.7.0",
+      "resolved": "https://registry.npmjs.org/font-awesome/-/font-awesome-4.7.0.tgz"
+    },
     "for-in": {
       "version": "0.1.8",
       "resolved": "https://registry.npmjs.org/for-in/-/for-in-0.1.8.tgz",

@@ -69,6 +69,19 @@ $disabled-opacity: 0.2;
   font-style: normal;
 }
 
+@import '../../../../node_modules/font-awesome/scss/font-awesome.scss';
+
+/*
+  FontAwesome links relative to its own directory but this path isn't fixed by
+  make sass, therefore we point FontAwesome to the right font file here
+ */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../../../node_modules/font-awesome/fonts/fontawesome-webfont.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   letter-spacing: 1px;
 }
